@@ -6,7 +6,7 @@
   </a>
 </div>
 
-<h3 align="center">NestJS Core Package for DevSeeder projects</h3>
+<h3 align="center">Microservice Exceptions Package for DevSeeder projects</h3>
 
 <div align="center">
   <a href="https://nestjs.com" target="_blank">
@@ -17,7 +17,7 @@
 ### Installation
 
 ```bash
-npm install @devseeder/nestjs-microservices-core
+npm install @devseeder/microservices-exceptions
 ```
 
 ## Contributing
