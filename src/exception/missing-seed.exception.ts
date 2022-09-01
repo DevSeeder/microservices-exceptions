@@ -5,14 +5,14 @@ export class MissingSeedException extends SeedException {
     actual: number,
     expected: number,
     refElement: string,
-    refPluralElement = ''
+    refPluralElement = '',
   ) {
     refPluralElement =
       refPluralElement.length > 0 ? refPluralElement : `${refElement}s`;
     super(
       actual === 0
         ? `No ${refElement} has been seeded`
-        : `The are (${expected - actual}) seeded ${refPluralElement} missing`
+        : `The are (${expected - actual}) seeded ${refPluralElement} missing`,
     );
   }
 }

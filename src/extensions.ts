@@ -1,1 +1,1 @@
-// export * as Extensions from '@devseeder/nestjs-microservices-commons/src/extensions';
+export * as Extensions from '@devseeder/nestjs-microservices-commons';
