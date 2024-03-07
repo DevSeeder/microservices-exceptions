@@ -1,6 +1,6 @@
 {
   "name": "@devseeder/microservices-exceptions",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Microservice Exceptions Package for DevSeeder projects",
   "author": "Maick Speck <maick@devseeder.com>",
   "license": "MIT",
@@ -33,7 +33,7 @@
   },
   "bugs": "https://github.com/DevSeeder/microservices-exceptions/",
   "dependencies": {
-    "@devseeder/nestjs-microservices-commons": "^1.0.48",
+    "@devseeder/nestjs-microservices-commons": "^1.0.70",
     "@nestjs/common": "^8.4.7",
     "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^8.0.0",
